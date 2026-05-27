@@ -1,6 +1,6 @@
-# FinDoc AI — Multi-Agent Financial Document Understanding System
+# FinDoc AI - Multi-Agent Financial Document Understanding System
 
-FinDoc AI is a cloud-based AI system designed to extract, classify, structure, and query financial data from invoice and receipt images. The project was developed during the Makeathon and focuses on combining Visual Language Models, vector search, relational databases, and conversational AI to support both semantic and quantitative financial document analysis.
+FinDoc AI is a cloud-based AI system designed to extract, classify, structure, and query financial data from invoice and receipt images. The project was developed during the UniAi Makeathon, which took first place in the group semi finals, and focuses on combining Visual Language Models, vector search, relational databases and conversational AI to support both semantic and quantitative financial document analysis.
 
 The system processes invoice and receipt images sourced from Kaggle datasets and user uploads, extracts key financial information, stores the results in both vector and relational databases, and allows users to ask natural language questions through a chatbot interface.
 
@@ -28,7 +28,10 @@ The pipeline supports two main types of questions:
 
 The project was implemented as a three-agent pipeline:
 
-### Agent 1 — Document Extraction Agent
+<img width="1920" height="1080" alt="PDF Extraction" src="https://github.com/user-attachments/assets/db3d88e5-1aaf-4bea-b281-d96c11b9f0d9" />
+
+
+### Agent 1 - Document Extraction Agent
 
 Agent 1 ingests raw invoice and receipt images and applies VLM-based extraction to convert visual document content into structured JSON outputs.
 
@@ -143,10 +146,9 @@ Main features:
 - Web-based document upload and chatbot interface.
 
 ---
+## UI
 
-## Example Questions
+<img width="1920" height="1080" alt="Copy of Το κείμενο της παραγράφου σας (2)" src="https://github.com/user-attachments/assets/4d7ff929-d25f-43ab-a60e-543310be98d7" />
+<img width="1920" height="1080" alt="Copy of Το κείμενο της παραγράφου σας (1)" src="https://github.com/user-attachments/assets/eb233161-6765-493f-af55-94e73dd38419" />
+<img width="1920" height="1080" alt="Copy of Το κείμενο της παραγράφου σας" src="https://github.com/user-attachments/assets/ac9fb8a6-d957-4fcc-b129-feb6516ef5a6" />
 
-Semantic questions:
-
-```text
-Which documents are related to food expenses?
